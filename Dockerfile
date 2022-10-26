@@ -1,7 +1,7 @@
 FROM node:16.5.0-alpine AS build
 WORKDIR /app
 COPY package*.json ./
-ENV PUBLIC_URL /app/population-choropleth
+ENV PUBLIC_URL /app/gematria-calculator
 RUN npm install
 COPY ./ .
 RUN npm run build
