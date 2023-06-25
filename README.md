@@ -1,1 +1,3 @@
 # Gematria Calculator
+
+A small web app built for a client with an interest in gematria, a numerological system, which involves converting letters to numbers with the belief that this reveals the deeper meaning of words. The app works by allowing the user to input a phrase, and then generates a table wherein all the involved letters and words are reduced to numbers. The frontend was built with Vue.js, using plain HTML and CSS to create the template; the code that performs the numerical conversation was simple enough to write in plain JavaScript as well.
